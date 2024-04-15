@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header h2{
+  text-align: center;
+}
+
+.gambar{
+  display: flex;
+  height: 100dvh;
+  background: linear-gradient(to top, #D2E2FB 30%, #86A8DB);
+}
+
+.gambar img{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.gambar .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  text-shadow: 0px, 0px, 4px rgba(0, 0, 0, 0.25);
+}
+
+.about {
+  padding: 50px;
+  background: #383291;
+  color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.about h1{
+  font-size: 40px;
+}
+
+.about .custom-button{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4d4db8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
